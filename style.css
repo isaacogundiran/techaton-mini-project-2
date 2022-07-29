@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+.image {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/images/bg-desktop.svg);
+}
+
+.level {
+  display: flex;
+  margin: 30px 20px 10px 46px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: hsl(300, 69%, 71%);
+  opacity: 0.7;
+  position: relative;
+}
+.level-a {
+  margin: 55px 0 10px 45px;
+}
+.level-b h2 {
+  font-family: "poppins", sans-serif;
+  line-height: 1.5;
+  color: rgb(234, 232, 232);
+}
+.level-b {
+  margin: 23px 0 0 0;
+  font-family: "open-sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(234, 232, 232);
+}
+.button {
+  border: solid 1px;
+  padding: 10px;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  width: 30%;
+  font-size: 14px;
+  text-align: center;
+}
+.level-c {
+  float: right;
+  border: solid 2px;
+  border-color: white;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(229, 24%, 87%);
+}
